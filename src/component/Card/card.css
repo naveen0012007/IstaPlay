@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.card {
+  /* width: 24%; */
+  max-width: 280px;
+  height: 178px;
+}
+.cardContent {
+  width: 88%;
+}
+.starBox {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  gap: 3px;
+}
+.cardImage {
+  height: 135px;
+  overflow: hidden;
+}
+.cardText {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(0deg, #1e3456 0%, #2c527e 105.38%);
+  padding: 10px 24px;
+  height: 65px;
+  transform: translateY(-26px);
+}
+.poster_path {
+  width: 100%;
+}
+.movieTitle {
+  margin-bottom: 3px;
+  color: #fff;
+  font-size: 16px;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 140%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.playBtn {
+  cursor: pointer;
+}

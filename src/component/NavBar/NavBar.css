@@ -1,0 +1,61 @@
+.nav {
+  background: #263f61;
+  padding: 12px;
+  padding-left: 56px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.navContainer {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+.navImageBox {
+  /* max-width: 174px; */
+}
+
+.inputFieldBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 424px;
+  width: 77%;
+}
+.inputFieldValue {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.26);
+  border-radius: 5px;
+  padding: 13.5px;
+  width: 85%;
+}
+.searchImgBox {
+  width: 48px;
+  height: 44px;
+}
+.searchImg {
+  transform: translate(-4px);
+  cursor: pointer;
+}
+
+input::placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.navLogout {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  text-decoration: none;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+.navLogout:hover {
+  color: #ff6a63;
+}

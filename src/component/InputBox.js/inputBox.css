@@ -1,0 +1,26 @@
+.inputBox {
+}
+.inputField {
+  padding: 22px 16px;
+  width: 95%;
+  left: 396px;
+  border: 1px solid rgba(0, 0, 0, 0.23);
+  /* */
+  border-radius: 16px;
+  outline: none;
+  color: #546e7a;
+}
+.inputField:hover {
+  border: 2px solid #ff7d65;
+}
+.errorMessage {
+  color: red;
+  display: none;
+}
+input:invalid[focused="true"] ~ span {
+  display: block;
+}
+.inputField::placeholder {
+  color: #546e7a;
+  opacity: 1; /* Firefox */
+}
